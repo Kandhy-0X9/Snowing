@@ -31,8 +31,8 @@ def snowFlake(size):
     diagnolLine(size) # make the second diagnol line
 
 def snowPosition():
-    posX = window_width() / 2 # get the width of the window and divide by 2 to get the range for x coordinates
-    posY = window_height() / 2 # get the height of the window and divide by 2 to get the range for y coordinates
+    posX = window_width() // 2 # get the width of the window and divide by 2 to get the range for x coordinates
+    posY = window_height() // 2 # get the height of the window and divide by 2 to get the range for y coordinates
     penup()
     goto(random.randint(-posX, posX), random.randint(-posY, posY)) # randomly position the turtle within the window
     pendown() 
