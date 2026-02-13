@@ -6,7 +6,6 @@ Screen().bgpic(r"snowingBG.gif")
 setup(1500,1001) # screen size to match background
 hideturtle()
 speed(0)
-pensize(4)
 color("white")
 
 # SnowFlake functions
